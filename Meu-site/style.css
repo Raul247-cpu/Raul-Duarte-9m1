@@ -1,0 +1,58 @@
+/* Estilo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main */
+main {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #0077cc;
+}
+
+/* Galeria de imagens */
+.galeria {
+    display: flex;               /* coloca imagens na mesma linha */
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;
+    gap: 20px;                   /* espaço entre as imagens */
+    margin: 20px 0;
+    flex-wrap: wrap;             /* quebra linha em telas pequenas */
+}
+
+img.imagem {
+    width: 45%;                  /* cada imagem ocupa 45% da largura */
+    max-width: 300px;            /* opcional: limita tamanho máximo */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #eee;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
